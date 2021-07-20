@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout height="match_parent" orientation="vertical" tag='v1' width="match_parent" xmlns:wx="http://www.w3.org/TR/html4/">
+
+    <layout  gravity="center" height="wrap_content" width="match_parent">
+        <text gravity="left" height="wrap_content" id='13' margin="10"
+            marginBottom="10" marginLeft="" marginRight="" marginTop="" padding="30" paddingBottom=""
+            paddingLeft="" paddingRight="" paddingTop="" tag="text1" text='文本控件{abc}{{title}}'
+            textColor="#008B8B" weight="1" width="0" />
+        <toggleButton height="28dp" margin="10dp" width="50dp" checked="false" oncheck="oncheckchanged()" />
+    </layout>
+    <layout gravity="bottom" height="wrap_content" width="match_parent">
+        <input height="120" hint='输入框111' id='btn_01' oninput="textChanged()" tag='input1' weight="1"
+            width="0" />
+        <button click='click1()' id='btn_01' text='按钮1' />
+    </layout>
+    <layout gravity="bottom" height="wrap_content" width="match_parent">
+        <button click='requestPermission()' text='权限申请' />
+        <button click='addViewTest()' id='btn_01' text='添加控件' />
+        <button click='alertDialog()' id='btn_01' text='弹窗' />
+        <button click='newPage()' id='btn_01' text='页面跳转' />
+    </layout>
+    <layout wx:for="{{apps}}" >
+        <layout width="match_parent" gravity="center" layout_gravity="center">
+            <text text="{{index}}" textColor="#008B8B" width="wrap_content" height="match_parent" layout_gravity="center" gravity="center"/>
+            <text click='clickItem({{index}})' text='{{item.name}}' weight="1" width="0" height="wrap_content"/>
+            <toggleButton height="28dp" margin="10dp" width="50dp" checked="false" oncheck="oncheckchanged()" />
+        </layout>
+    </layout>
+    <scroll height="match_parent" width="match_parent">
+        <layout backgroundColor='#EEE8AA' height="match_parent" orientation="vertical"
+            tag="layout_02" width="match_parent">
+            <img height="300"
+                src='https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1607231744142&amp;di=4a5b3fe7368ddff55cb8166f0f030320&amp;imgtype=0&amp;src=http%3A%2F%2Fa0.att.hudong.com%2F31%2F96%2F01300000287245125056965117563.jpg'
+                text='a标签' width="300" />
+
+        </layout>
+    </scroll>
+</layout>

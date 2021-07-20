@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="haha"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10">
+        <CheckBox
+            android:id="@+id/cbox_ads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="屏蔽广告"/>
+        <CheckBox
+            android:id="@+id/cbox_hierarchy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="布局捕捉悬浮工具"/>
+        <CheckBox
+            android:id="@+id/cbox_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="悬浮助手"/>
+    </LinearLayout>
+
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="悬浮助手"/>
+
+        <cn.demomaster.huan.quickdeveloplibrary.widget.button.ToggleButton
+            android:id="@+id/toggleButton_floating_menu"
+            android:layout_width="40dp"
+            android:layout_height="24dp"/>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_floating_05"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="忽略电池优化"/>
+
+    <Button
+        android:id="@+id/btn_floating_06"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="应用自启动"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_window_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打开悬浮窗权限"/>
+        <Button
+            android:id="@+id/btn_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拦截记录"/>
+        <Button
+            android:id="@+id/btn_ads_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="疑似广告"/>
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recy_drag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutAnimation="@anim/layout_animation_fall_down"
+        android:overScrollMode="never"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

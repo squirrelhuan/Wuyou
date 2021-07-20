@@ -1,0 +1,213 @@
+[
+
+{
+    "appName":"QQ音乐",
+    "packageName":"com.tencent.qqmusic",
+    "className":"android.widget.TextView",
+    "id":"null",
+    "text":"跳过",
+    "activity":"com.huawei.android.launcher.unihome.UniHomeLauncher"
+},{
+    "appName":"QQ音乐",
+    "packageName":"com.tencent.qqmusic",
+    "className":"android.widget.TextView",
+    "id":"null",
+    "text":"跳过",
+    "activity":"com.tencent.qqmusic.activity.AppStarterActivity"
+},
+{
+    "appName":"QQ浏览器",
+    "packageName":"com.tencent.mtt",
+    "id":"",
+    "text":"跳过",
+    "activity":"com.tencent.mtt.SplashActivity"
+},
+{
+    "appName":"QQ浏览器",
+    "packageName":"com.tencent.mtt",
+    "id":"",
+    "text":"跳过",
+    "activity":"com.tencent.mtt.MainActivity"
+},
+{
+    "appName":"CSDN",
+    "packageName":"net.csdn.csdnplus",
+    "id":"",
+    "text":"跳过",
+    "activity":"net.csdn.csdnplus.activity.SplashActivity"
+},
+{
+    "appName":"斗鱼",
+    "packageName":"air.tv.douyu.android",
+    "id":"",
+    "text":"跳过",
+    "activity":"com.douyu.module.home.pages.main.MainActivity"
+},
+{
+    "appName":"全民K歌",
+    "packageName":"com.tencent.karaoke",
+    "id":"",
+    "text":"跳过",
+    "activity":"com.tencent.karaoke.module.splash.ui.SplashBaseActivity"
+},
+{
+    "appName":"全民K歌",
+    "packageName":"com.tencent.karaoke",
+    "id":"",
+    "text":"跳过",
+    "activity":"com.tencent.karaoke.module.splash.ui.SplashAdDialog"
+},
+{
+    "appName":"喜马拉雅",
+    "packageName":"com.ximalaya.ting.android",
+    "id":"com.ximalaya.ting.android:id/host_count_down_click_lay",
+    "text":"跳过广告",
+    "activity":"com.ximalaya.ting.android.host.activity.WelComeActivity"
+},
+{
+    "appName":"知乎",
+    "packageName":"com.zhihu.android",
+    "id":"",
+    "text":"跳过广告",
+    "activity":"com.zhihu.android.app.ui.activity.LauncherActivity"
+},
+{
+   "appName":"夜间护眼",
+   "packageName":"com.chenai.ieyes",
+   "id":"",
+   "text":"跳过",
+   "activity":"com.chenai.ieyeck.act.SplashGu"
+},
+{
+    "appName":"网易云音乐",
+    "packageName":"com.netease.cloudmusic",
+    "id":"",
+    "text":"跳过",
+    "activity":"com.netease.cloudmusic.activity.LoadingActivity"
+},
+{
+    "appName":"网易云音乐",
+    "packageName":"com.netease.cloudmusic",
+    "id":"com.netease.cloudmusic:id/skipBtn",
+    "text":"跳过",
+    "activity":"com.huawei.android.launcher.unihome.UniHomeLauncher"
+},
+{
+    "appName":"华为应用市场",
+    "packageName":"com.huawei.appmarket",
+    "id":"",
+    "text":"跳过",
+    "activity":"com.huawei.appmarket.MainActivity"
+},
+{
+    "appName":"华为商城",
+    "packageName":"com.vmall.client",
+    "id":"",
+    "text":"跳过",
+    "activity":"com.vmall.client.splash.fragment.SplashActivity"
+},
+ {
+     "appName":"华为主题",
+     "packageName":"com.huawei.android.thememanager",
+     "id":"com.huawei.android.thememanager:id/hiad_btn_skip",
+     "text":"",
+     "activity":"com.huawei.android.thememanager.mvp.view.activity.onlinebase.PageActivity"
+ },
+{
+    "appName":"华为阅读",
+    "packageName":"com.huawei.hwireader",
+    "id":"",
+    "text":"跳过",
+    "activity":"com.chaozh.iReader.ui.activity.WelcomeActivity"
+},
+{
+    "appName":"华为视频",
+    "packageName":"com.huawei.himovie",
+    "id":"",
+    "text":"跳过",
+    "activity":"com.huawei.himovie.ui.login.SplashScreenActivity"
+},
+{
+    "appName":"平安证券",
+    "packageName":"com.hundsun.winner.pazq",
+    "id":"",
+    "text":"跳过",
+    "activity":"com.hundsun.winner.pazqapp.ui.home.activity.NewSplashActivity"
+},
+{
+    "appName":"懂车帝",
+    "packageName":"com.ss.android.auto",
+    "id":"",
+    "text":"跳过广告",
+    "activity":"com.ss.android.auto.activity.SplashActivity"
+},
+{
+    "appName":"爱奇艺",
+    "packageName":"com.qiyi.video",
+    "id":"com.qiyi.video:id/unused_res_a",
+    "text":"跳过",
+    "activity":"org.qiyi.android.video.MainActivity"
+},
+{
+    "appName":"闲鱼",
+    "packageName":"com.taobao.idlefish",
+    "id":"com.qiyi.video:id/unused_res_a",
+    "text":"跳过广告",
+    "activity":"com.taobao.fleamarket.home.activity.InitActivity"
+},
+{
+    "appName":"美团",
+    "packageName":"com.sankuai.meituan",
+    "id":"com.qiyi.video:id/unused_res_a",
+    "text":"跳过广告",
+    "activity":"com.meituan.android.pt.homepage.activity.MainActivity"
+},
+{
+    "appName":"新浪新闻",
+    "packageName":"com.sina.news",
+    "id":"",
+    "text":"跳过广告",
+    "activity":"com.sina.news.module.launch.activity.PowerOnScreen"
+},
+{
+    "appName":"今日头条",
+    "packageName":"com.ss.android.article.news",
+    "id":"",
+    "text":"跳过",
+    "activity":"com.ss.android.article.news.activity.MainActivity"
+},
+ {
+     "appName":"今日头条",
+     "packageName":"com.ss.android.article.news",
+     "id":"",
+     "text":"跳过",
+     "activity":"com.ss.android.splashad.splash.view.SplashAdActivity"
+ },
+ {
+    "appName":"wifi万能钥匙",
+    "packageName":"com.snda.wifilocating",
+    "id":"com.snda.wifilocating:id/tt_splash_skip_btn",
+    "text":"",
+    "activity":""
+ }
+,{
+    "appName":"喜马拉雅",
+    "packageName":"com.ximalaya.ting.android",
+    "id":"com.ximalaya.ting.android:id/host_count_down_text",
+    "text":"跳过广告",
+    "activity":"com.ximalaya.ting.android.host.activity.WelComeActivity"
+},
+{
+    "appName":"喜马拉雅",
+    "activity":"com.ximalaya.ting.android.host.activity.SplashAdActivity",
+    "packageName":"com.ximalaya.ting.android",
+    "text":"跳过广告",
+    "id":"",
+},
+{
+    "appName":"喜马拉雅",
+    "packageName":"com.ximalaya.ting.android",
+    "id":"com.ximalaya.ting.android:id/host_count_down_text",
+    "text":"跳过广告",
+    "activity":"com.huawei.android.launcher.unihome.UniHomeLauncher"
+}]
